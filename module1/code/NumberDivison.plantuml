@@ -1,0 +1,12 @@
+@startuml DivisionExample
+class DivisionExample {
+  +static void main(String[] args)
+  -Scanner scanner
+  -double dividend
+  -double divisor
+  -double result
+}
+DivisionCalculator ..> Scanner : uses
+DivisionCalculator ..> InputMismatchException : handles
+DivisionCalculator ..> ArithmeticException : handles
+@enduml

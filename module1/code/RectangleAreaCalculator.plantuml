@@ -1,0 +1,5 @@
+@startuml
+class RectangleArea {
+  +main(String[] args): void
+}
+@enduml
