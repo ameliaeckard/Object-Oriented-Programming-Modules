@@ -1,0 +1,6 @@
+@startuml test
+scale 800 width
+Class01 <|-- Class02
+Class03 *-- Class04
+Class05 o-- Class06
+@enduml
